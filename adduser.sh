@@ -1,4 +1,7 @@
 #!/bin/bash
+# This will add a user with no password, create their web directory, make sure they own it,
+# set the gid, and setup the symlink from their home dir.
+# Exits if error.
 echo Adding user $1.
 
 adduser --disabled-password -gecos "" $1 || { exit 1; }
