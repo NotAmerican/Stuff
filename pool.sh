@@ -15,13 +15,13 @@ listen.group = www-data
 ;php_admin_value[disable_functions] = exec,passthru,shell_exec,system
 ;php_admin_flag[allow_url_fopen] = off
 pm = dynamic
-#max child processes
+;max child processes
 pm.max_children = 3
-#number of processes to keep running
+;number of processes to keep running
 pm.start_servers = 1
-#minimum number of spare processes
+;minimum number of spare processes
 pm.min_spare_servers = 1
-#maximum number of spare processes
+;maximum number of spare processes
 pm.max_spare_servers = 1
 EOF
 
