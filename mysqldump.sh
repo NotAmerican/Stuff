@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # (1) set up all the mysqldump variables
 FILE=~/backups/$3_backup.sql.`date +"%Y%m%d"`

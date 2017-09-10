@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #Move the current files in backup folder to archive folder.
 mv ~/backups/* ~/backups/archive/ 2> /dev/null
