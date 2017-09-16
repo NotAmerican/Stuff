@@ -3,7 +3,7 @@
 #Move the current files in backup folder to archive folder.
 mv ~/backups/* ~/backups/archive/ 2> /dev/null
 
-#Run mysqldump for each database 
+#Run mysqldump for each database
 ./mysqldump.sh $1 $2 finalmile
 ./mysqldump.sh $1 $2 infinitewp
 ./mysqldump.sh $1 $2 masonrid_user
