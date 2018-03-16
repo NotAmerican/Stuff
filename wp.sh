@@ -1,6 +1,7 @@
 #!/bin/bash
 #This script downloads the latest version of WordPress.
 #Extracts that into the users home directory and creates a MySQL user and databse
+#wp.sh username mysqlpasswd
 if [ -z "$1" ] || [ -z "$2" ]; then
   echo "one or both are empty."
 else
