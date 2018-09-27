@@ -9,7 +9,7 @@ mv ~/backups/* ~/backups/archive/ > /dev/null 2>&1
 DBSERVER=odin.rtswv.com
 USER=$1
 PASS=$2
-databases=('finalmile' 'infinitewp' 'masonrid_user' 'mjgrill' 'mjsaloon' 'nagios' 'short' 'steel' 'warriors_user' 'westover_user' 'wordpress' 'wp_band' 'multisite')
+databases=('finalmile' 'infinitewp' 'masonrid_user' 'mjgrill' 'mjsaloon' 'nagios' 'short' 'steel' 'warriors_user' 'westover_user' 'wordpress' 'wp_band' 'multisite' 'classroomcache')
 for database in ${databases[@]}
 do
    FILE=~/backups/${database}_backup.sql.`date +"%Y%m%d"`
